@@ -6,8 +6,12 @@
         "install-all": "npm install && cd client && npm install && cd ../server && npm install",
         "build-client": "cd client && npm run build",
         "start": "cd server && node server.js",
-        "prod": "npm run build-client && npm run start"
+        "prod": "npm run build-client && npm run start",
+        "dev": "concurrently \"cd server && node server.js\" \"cd client && npm run dev\""
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
 }
