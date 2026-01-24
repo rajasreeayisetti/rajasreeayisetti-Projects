@@ -1,0 +1,1 @@
+export default function SchemeList() { return <div className='p-4 border rounded'>Scheme List Component</div> }
