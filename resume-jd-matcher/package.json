@@ -1,0 +1,13 @@
+{
+    "name": "resume-jd-matcher",
+    "version": "1.0.0",
+    "description": "Resume and JD Matcher Application",
+    "scripts": {
+        "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+        "build-client": "cd client && npm run build",
+        "start": "cd server && node server.js",
+        "prod": "npm run build-client && npm run start"
+    },
+    "author": "",
+    "license": "ISC"
+}
