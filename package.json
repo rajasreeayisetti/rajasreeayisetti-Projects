@@ -1,0 +1,20 @@
+{
+    "name": "vehicle-rental-system",
+    "version": "1.0.0",
+    "description": "Premium Vehicle Rental System MERN",
+    "main": "index.js",
+    "scripts": {
+        "build": "cd frontend && npm run build",
+        "backend": "cd backend && nodemon server.js",
+        "frontend": "cd frontend && npm run dev",
+        "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+        "start": "cd backend && node server.js",
+        "seed": "cd backend && node utils/seedData.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
