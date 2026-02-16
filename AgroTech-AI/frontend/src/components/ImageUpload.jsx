@@ -1,0 +1,1 @@
+export default function ImageUpload() { return <div className='p-4 border rounded'>Image Upload Component</div> }

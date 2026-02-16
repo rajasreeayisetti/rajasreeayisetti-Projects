@@ -1,0 +1,1 @@
+export default function VoiceRecorder() { return <div className='p-4 border rounded'>Voice Recorder Component</div> }

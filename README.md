@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DriveEase | Premium Vehicle Rental Management System
 
 A full-stack MERN application for managing vehicle rentals with features like fleet tracking, dynamic pricing, and a premium dashboard.
@@ -66,3 +67,6 @@ vehicle-rental-system/
 ├── package.json (Root Scripts)
 └── README.md
 ```
+=======
+"# Resume JD Matcher" 
+>>>>>>> 5d9c44c8df8f78b2fd4846be211076ff05e6d961
